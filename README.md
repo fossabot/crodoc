@@ -1,5 +1,5 @@
 # crodoc
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwatzon%2Fcrodoc.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwatzon%2Fcrodoc?ref=badge_shield)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffossabot%2Fcrodoc.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffossabot%2Fcrodoc?ref=badge_shield)
 
 
 crodoc is a documentation tool for the Crystal programming language meant to be a replacement for the built in documenter. The goal of crodoc is to be a more powerful and extensible way to document your code, with support for [meta-data tags](#meta-data-tags), [plugins](#plugins), [custom templates](#custom-templates), and more.
@@ -71,14 +71,14 @@ To install with CURL (the easiest method) run the following in your terminal:
 curl -L https://git.io/fj4sg | bash
 ```
 
-and let it install. If you wish to inspect the installer script just check it out [here](https://github.com/watzon/crodoc/blob/master/install.sh).
+and let it install. If you wish to inspect the installer script just check it out [here](https://github.com/fossabot/crodoc/blob/master/install.sh).
 
 #### Clone the Repo
 
 You can always build this from sources. The installer does this anyway if a binary isn't avaialable for your system.
 
 ```shell
-git clone https://github.com/watzon/crodoc.git
+git clone https://github.com/fossabot/crodoc.git
 cd crodoc
 crystal build ./src/crodoc.cr --release
 ```
@@ -94,7 +94,7 @@ You can also add crodoc locally to your project. Doing this will build a binary 
 
 development_dependencies:
   crodoc:
-    github: watzon/crodoc
+    github: fossabot/crodoc
 ```
 
 Don't forget to run `shards install` after adding it to your `shard.yml`.
@@ -105,7 +105,7 @@ TODO: Write usage instructions here
 
 ## Contributing
 
-1. Fork it (<https://github.com/watzon/crodoc/fork>)
+1. Fork it (<https://github.com/fossabot/crodoc/fork>)
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
@@ -117,4 +117,4 @@ TODO: Write usage instructions here
 
 
 ## License
-[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fwatzon%2Fcrodoc.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fwatzon%2Fcrodoc?ref=badge_large)
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Ffossabot%2Fcrodoc.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Ffossabot%2Fcrodoc?ref=badge_large)
